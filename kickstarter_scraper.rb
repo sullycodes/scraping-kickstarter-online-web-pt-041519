@@ -30,6 +30,6 @@ def create_project_hash
   projects
 end
 
-end
+
 
 create_project_hash
