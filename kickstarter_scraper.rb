@@ -13,7 +13,7 @@ def create_project_hash
   # description: project.css("p.bbcard_blurb").text
   project = kickstarter.css("li.project.grid_4")
   title = project.css("h2.bbcard_name strong a").text
-  p title.split("")
+  p title.split(" ")
 end
 
 create_project_hash
