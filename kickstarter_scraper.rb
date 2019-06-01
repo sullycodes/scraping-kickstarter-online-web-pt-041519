@@ -15,7 +15,7 @@ def create_project_hash
   title = project.css("h2.bbcard_name strong a").
   loc = project.css(".location-name").text
 
-  p title.split(" - ")
+  p loc
 end
 
 create_project_hash
