@@ -12,7 +12,7 @@ def create_project_hash
   # image link: project.css("div.project-thumbnail a img").attribute("src").value
   # description: project.css("p.bbcard_blurb").text
   project = kickstarter.css("li.project.grid_4")
-  title = project.css("h2.bbcard_name strong a").
+  title = project.css("h2.bbcard_name strong a").text
   loc = project.css(".location-name").text
 
   p loc
